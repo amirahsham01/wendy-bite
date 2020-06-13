@@ -1,0 +1,106 @@
+html {
+	background-color: #bbeebb;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+body {
+	background-color: #444444;
+	position: absolute;
+	align-content: center;
+	justify-content: center;
+	padding: 15px;
+	width : 470px;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	outline: 3px solid gray;
+	outline-offset: -25px;
+	margin-bottom: 0px;
+	margin-top: 105px;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-family: serif;
+	font-size: 24px;
+	margin-top: 40px;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+
+.resume {
+	color: #00d59d;
+}
+
+.active {
+	text-decoration: none;
+	color: white;
+}
+
+main {
+	font-family: serif;
+	font-size: 12px;
+	margin: 40px;
+	margin-top: 21px;
+	line-height: 17px;
+}
+
+ul {
+	margin-left: -20px;
+	list-style-type: square;
+}
+
+.experience li {
+	margin: 10px 0;
+}
+
+.education-list {
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.key-point {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #A9A9A9;
+	font-size: 11px;
+	letter-spacing: 1px;
+	padding-top: 10px;
+}
+
+.designation {
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.date {
+	font-family: Helvetica, sans-serif;
+	font-size: 9px;
+	color: #A9A9A9;
+}
+
+hr {
+	margin-top: 20px;
+	width: 400px;
+	border: 1px solid gray;
+}
+
+footer {
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: gray;
+	text-align: center;
+	margin-top: 15px;
+}
